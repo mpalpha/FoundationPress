@@ -4,7 +4,7 @@ Template Name: Left Sidebar
 */
 get_header(); ?>
 <div class="row">
-    <div class="small-12 large-8 large-push-4 columns" role="main">
+    <div class="small-24 large-16 large-push-8 columns" role="main">
 
         <?php do_action('foundationPress_before_content'); ?>
 

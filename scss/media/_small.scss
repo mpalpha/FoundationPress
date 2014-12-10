@@ -1,0 +1,36 @@
+/******************************************************************
+
+Small 0px and up
+
+Note: This is the parent css block. Other media queries will inherit from this file.
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {
+
+  /*********************
+  LINK STYLES
+  *********************/
+  a {
+    &:visited {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+  /******************************************************************
+  H1, H2, H3, H4, H5 P STYLES
+  ******************************************************************/
+  p {
+    font-family: $body-font-family;
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    /* removing text decoration from all headline links */
+    a {
+      text-decoration: none;
+    }
+  }
+}

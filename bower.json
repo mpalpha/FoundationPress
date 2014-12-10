@@ -1,6 +1,9 @@
 {
   "name": "foundation-press",
   "dependencies": {
-    "foundation": "5.4.7"
+    "foundation": "5.4.7",
+    "greensock": "~1.15.0",
+    "foundation-hashgrid": "*",
+    "animate-scroll": "https://github.com/mpalpha/animate-scroll.git"
   }
 }

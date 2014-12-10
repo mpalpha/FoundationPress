@@ -1,0 +1,30 @@
+@import "config/settings"; // Default settings file. Uncomment each setting you need to change
+//@import "foundation/components/grid";
+@import "foundation-hashgrid/foundation-hashgrid";
+
+.gs-example {
+  .row {
+    border: 1px solid #c6c6c6;
+    margin: 0.3rem !important;
+    .row {
+      margin: 0;
+    }
+  }
+  .border-none {
+    border-right: none !important;
+  }
+  .columns {
+    padding-left: inherit;
+    padding-right: inherit;
+    border: 3px solid #fff;
+    background: #eee;
+  }
+  .columns:nth-child(2) {
+    background: #e1e1e1;
+  }
+  p {
+    padding: 10px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}

@@ -4,7 +4,7 @@ Template Name: Kitchen Sink
 */
 get_header(); ?>
 <div class="row">
-	<div class="small-12 large-12 columns" role="main">
+	<div class="small-24 large-24 columns" role="main">
 
 	<?php /* Start loop */ ?>
 	<?php while (have_posts()) : the_post(); ?>
@@ -40,8 +40,82 @@ get_header(); ?>
 			</div>
 
 			<hr>
+			<h4 id="the-grid">The Grid</h4>
+			<section class="grid-example">
+			    <div class="row">
+			      <div class="large-12 columns">
+			        <p>Our grid works on almost any device and has support for nesting, source ordering, offsets and device presentation. Frankly, it's a little too easy. In no time, you'll be creating complex layouts like this.</p> 
+			        <p>Need a head start on some of your designs or some extra inspiration to see the full potential of a responsive front-end framework? <a href="http://foundation.zurb.com/docs/index.html#resources" target="_blank">Check out a list of our Foundation resources!</a></p>
+			      </div>
+			      <div class="large-12 columns">
+				    <section class="gs-example">
+					  <div class="row collapse">
+					    <div class="small-12 columns">
+					      <p>12</p>
+					    </div>
+					  </div>
+					  <div class="row collapse">
+					    <div class="small-12 columns border-none">
+					      <p>12</p>
+					    </div>
+					    <div class="small-12 columns">
+					      <p>12</p>
+					      <div class="row">
+					        <div class="small-12 columns border-none">
+					          <p>12</p>
+					        </div>
+					        <div class="small-12 columns">
+					          <p>12</p>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="row collapse">
+					    <div class="small-8 columns border-none">
+					      <p>8</p>
+					      <div class="row">
+					        <div class="small-8 columns border-none">
+					          <p>8</p>
+					        </div>
+					        <div class="small-16 columns">
+					          <p>16</p>
+					        </div>
+					      </div>
+					    </div>
+					    <div class="small-8 columns border-none">
+					      <p>8</p>
+					      <div class="row">
+					        <div class="small-6 columns border-none">
+					          <p>6</p>
+					        </div>
+					        <div class="small-18 columns">
+					          <p>18</p>
+					        </div>
+					      </div>
+					    </div>
+					    <div class="small-8 columns">
+					      <p>8</p>
+					      <div class="row">
+					        <div class="small-6 columns border-none">
+					          <p>6</p>
+					        </div>
+					        <div class="small-6 columns border-none">
+					          <p>6</p>
+					        </div>
+					        <div class="small-12 columns">
+					          <p>12</p>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					</section>
+			      </div>
+			    </div>
+			  </section>
+
+			<hr>
 			<h4 id="block-grid">Block Grid</h4>
-			<ul class="small-block-grid-2 large-block-grid-4">
+			<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
 				<li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/comet-th.jpg" alt=""></li>
 				<li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/launch-th.jpg" alt=""></li>
 				<li><img class="th" src="http://foundation.zurb.com/docs/assets/img/examples/space-th.jpg" alt=""></li>
@@ -60,13 +134,13 @@ get_header(); ?>
 			<hr>
 			<h4 id="buttons">Buttons</h4>
 			<div class="row">
-				<div class="small-6 large-6 columns">
+				<div class="small-12 large-12 columns">
 					<a href="#" class="tiny button">.tiny.button</a><br>
 					<a href="#" class="small button">.small.button</a><br>
 					<a href="#" class="button">.button</a><br>
 					<a href="#" class="button expand">.expand</a><br>
 				</div>
-				<div class="small-6 large-6 columns">
+				<div class="small-12 large-12 columns">
 					<a href="#" class="tiny button secondary">.tiny.secondary</a><br>
 					<a href="#" class="small button success radius">.small.success.radius</a><br>
 					<a href="#" class="button alert round disabled">.round.disabled</a><br>
@@ -139,28 +213,28 @@ get_header(); ?>
 					<legend>Fieldset</legend>
 
 					<div class="row">
-						<div class="large-12 columns">
+						<div class="large-24 columns">
 							<label>Input Label</label>
-							<input type="text" placeholder="large-12.columns">
+							<input type="text" placeholder="large-24.columns">
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="large-4 columns">
+						<div class="large-8 columns">
 							<label>Input Label</label>
-							<input type="text" placeholder="large-4.columns">
+							<input type="text" placeholder="large-8.columns">
 						</div>
-						<div class="large-4 columns">
+						<div class="large-8 columns">
 							<label>Input Label</label>
-							<input type="text" placeholder="large-4.columns">
+							<input type="text" placeholder="large-8.columns">
 						</div>
-						<div class="large-4 columns">
+						<div class="large-8 columns">
 							<div class="row collapse">
 								<label>Input Label</label>
-								<div class="small-9 columns">
-									<input type="text" placeholder="small-9.columns">
+								<div class="small-18 columns">
+									<input type="text" placeholder="small-18.columns">
 								</div>
-								<div class="small-3 columns">
+								<div class="small-6 columns">
 									<span class="postfix">.com</span>
 								</div>
 							</div>
@@ -168,9 +242,9 @@ get_header(); ?>
 					</div>
 
 					<div class="row">
-						<div class="large-12 columns">
+						<div class="large-24 columns">
 							<label>Textarea Label</label>
-							<textarea placeholder="small-12.columns"></textarea>
+							<textarea placeholder="small-24.columns"></textarea>
 						</div>
 					</div>
 
@@ -268,7 +342,7 @@ get_header(); ?>
 			<hr>
 			<h4 id="orbit">Orbit</h4>
 			<div class="row">
-				<div class="large-12 columns">
+				<div class="large-24 columns">
 					<ul id="featured1" data-orbit data-options="timer_speed:5000;">
 						<li>
 							<img src="http://foundation.zurb.com/docs/assets/img/examples/satelite-orbit.jpg" alt=""/>
@@ -309,13 +383,13 @@ get_header(); ?>
 			<hr>
 			<h4 id="panels">Panels</h4>
 			<div class="row">
-				<div class="large-6 columns">
+				<div class="large-12 columns">
 					<div class="panel">
 						<h5>This is a regular panel.</h5>
 						<p>It has an easy to override visual style, and is appropriately subdued.</p>
 					</div>
 				</div>
-				<div class="large-6 columns">
+				<div class="large-12 columns">
 					<div class="panel callout radius">
 						<h5>This is a callout panel with radiused edges.</h5>
 						<p>It&#39;s a little ostentatious, but useful for important content.</p>
@@ -325,7 +399,7 @@ get_header(); ?>
 
 			<h4 id="pricing-tables">Pricing Tables</h4>
 			<div class="row">
-				<div class="large-4 columns">
+				<div class="large-12 columns">
 					<ul class="pricing-table">
 						<li class="title">Standard</li>
 						<li class="price">$99.99</li>
@@ -340,9 +414,9 @@ get_header(); ?>
 
 			<hr>
 			<h4 id="progress-bars">Progress Bars</h4>
-			<div class="progress large-6"><span class="meter" style="width: 40%"></span></div>
-			<div class="radius progress success large-8"><span class="meter" style="width: 80%"></span></div>
-			<div class="nice round progress alert large-10"><span class="meter" style="width: 30%"></span></div>
+			<div class="progress large-12"><span class="meter" style="width: 40%"></span></div>
+			<div class="radius progress success large-16"><span class="meter" style="width: 80%"></span></div>
+			<div class="nice round progress alert large-20"><span class="meter" style="width: 30%"></span></div>
 			<div class="nice secondary progress"><span class="meter" style="width: 50%"></span></div>
 
 			<hr>
@@ -489,7 +563,7 @@ get_header(); ?>
 			<hr>
 			<h4 id="side-nav">Side Nav</h4>
 			<div class="row">
-				<div class="large-4 columns end">
+				<div class="large-8 columns end">
 					<ul class="side-nav">
 						<li class="active"><a href="#">Link 1</a></li>
 						<li><a href="#">Link 2</a></li>

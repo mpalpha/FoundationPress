@@ -1,9 +1,13 @@
 <?php
 /*
-Author: Ole Fredrik Lie
-URL: http://olefredrik.com
+Author: Ole Fredrik Lie and Jason Lusk
+URL: http://olefredrik.com | http://jasonlusk.com
 */
 
+// Live Reload and Foundation Hashgrid
+if (WP_DEBUG) {
+    require_once 'library/dev.php';
+}
 
 // Various clean up functions
 require_once('library/cleanup.php');

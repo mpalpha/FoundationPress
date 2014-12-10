@@ -6,12 +6,12 @@ get_header(); ?>
 
 <header id="homepage-hero" role="banner">
 	<div class="row">
-		<div class="small-12 medium-7 columns">
+		<div class="small-24 medium-14 columns">
 			<h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
 			<h4 class="subheader"><?php bloginfo('description'); ?></h4>
 		</div>
 
-		<div class="medium-6 columns end">
+		<div class="medium-12 columns end">
 			<a role="button" class="download large button hide-for-small" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
 		</div>
 
@@ -23,7 +23,7 @@ get_header(); ?>
 </header>
 
 	<div class="row">
-		<div class="small-12 large-8 columns" role="main">
+		<div class="small-24 large-16 columns" role="main">
 
 		<?php do_action('foundationPress_before_content'); ?>
 

@@ -1,0 +1,77 @@
+/*
+ * todo:
+ * 1) make it responsive with specified breakpoints
+ * 2) generate custom placeholder grid
+*/
+/* line 40, C:/src/powerup/public/wp-content/themes/powerup/scss/foundation-hashgrid/foundation-hashgrid */
+#grid * {
+  content: "" !important;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 46, C:/src/powerup/public/wp-content/themes/powerup/scss/foundation-hashgrid/foundation-hashgrid */
+#grid {
+  position: absolute;
+  top: 0;
+  z-index: 10000; }
+  /* line 52, C:/src/powerup/public/wp-content/themes/powerup/scss/foundation-hashgrid/foundation-hashgrid */
+  #grid div.vert-container {
+    outline: solid rgba(206, 0, 0, 0.3);
+    outline-width: 1px; }
+  /* line 56, C:/src/powerup/public/wp-content/themes/powerup/scss/foundation-hashgrid/foundation-hashgrid */
+  #grid div.horiz-container {
+    margin: 0 auto !important;
+    width: 100%; }
+  /* line 60, C:/src/powerup/public/wp-content/themes/powerup/scss/foundation-hashgrid/foundation-hashgrid */
+  #grid div.vert > span {
+    outline: solid rgba(0, 206, 209, 0.3);
+    outline-width: 1px;
+    background: rgba(255, 0, 0, 0.05); }
+  /* line 65, C:/src/powerup/public/wp-content/themes/powerup/scss/foundation-hashgrid/foundation-hashgrid */
+  #grid div.horiz {
+    height: 16px;
+    border-bottom: 1px dotted rgba(100, 100, 100, 0.2);
+    margin: 0 !important;
+    padding: 0 !important; }
+  /* line 72, C:/src/powerup/public/wp-content/themes/powerup/scss/foundation-hashgrid/foundation-hashgrid */
+  #grid:after {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    content: "Baseline Height: 16px  \A         Columns: 24  \A      Grid Width: 980px  \A    Column Width: 20.7986111111px  \A    Gutter Width: 20px  \A    Margin Width: 20.8333333333px";
+    white-space: pre;
+    display: block;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 10px;
+    font-family: monospace;
+    z-index: 9999; }
+
+/* line 6, C:/src/powerup/public/wp-content/themes/powerup/scss/dev.scss */
+.gs-example .row {
+  border: 1px solid #c6c6c6;
+  margin: 0.3rem !important; }
+  /* line 9, C:/src/powerup/public/wp-content/themes/powerup/scss/dev.scss */
+  .gs-example .row .row {
+    margin: 0; }
+/* line 13, C:/src/powerup/public/wp-content/themes/powerup/scss/dev.scss */
+.gs-example .border-none {
+  border-right: none !important; }
+/* line 16, C:/src/powerup/public/wp-content/themes/powerup/scss/dev.scss */
+.gs-example .columns {
+  padding-left: inherit;
+  padding-right: inherit;
+  border: 3px solid #fff;
+  background: #eee; }
+/* line 22, C:/src/powerup/public/wp-content/themes/powerup/scss/dev.scss */
+.gs-example .columns:nth-child(2) {
+  background: #e1e1e1; }
+/* line 25, C:/src/powerup/public/wp-content/themes/powerup/scss/dev.scss */
+.gs-example p {
+  padding: 10px;
+  margin-bottom: 0;
+  text-align: center; }
+
+/*# sourceMappingURL=dev.css.map */
