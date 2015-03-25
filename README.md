@@ -1,4 +1,4 @@
-# FoundationPress
+# FoundationPress (updated by Jason Lusk to Foundation 5.5.1 and modified to use the golden ratio for typography and node/grunt to build)
 
 This is a WordPress starter theme based on Foundation 5 by Zurb. The purpose of FoundationPress, is to act as a small and handy toolbox that contains the essentials needed to build any design. FoundationPress is meant to be a starting point, not the final product. If you're looking for an all-in-one theme with built-in shortcodes, plugins, fancypancy portfolio templates or whatnot, I'm afraid you have to look elsewhere.
 
@@ -27,14 +27,14 @@ Bower is a package manager used by Zurb to distribute Foundation. When you have 
 
 ```bash
 cd my-wordpress-folder/wp-content/themes/
-git clone git@github.com:olefredrik/FoundationPress.git
+git clone https://github.com/mpalpha/FoundationPress.git
 mv FoundationPress your-theme-name
 cd your-theme-name
-npm install && bower install && grunt build
+npm i && bower i && grunt build
 ```
 
 Tip: If you get an error saying Permission denied (publickey) when cloning the repository, use the https protocol instead:
-```git clone https://github.com/olefredrik/FoundationPress.git```
+```git clone https://github.com/mpalpha/FoundationPress.git```
 
 While you're working on your project, run:
 
