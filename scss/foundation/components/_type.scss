@@ -18,6 +18,8 @@ ul {
 
 /* add global text shadow to headings and paragraphs */
 h1, h2, h3, h4, h5, h6, p, a, span {
+    margin-top:0;
+    margin-bottom:0;
   text-rendering: auto;
   -webkit-text-stroke: rgba($body-font-color, 0.5);
   text-shadow: 0 0 0.005em rgba($body-font-color, 0.5);
